@@ -25,8 +25,8 @@
             background-color: #e2e8f0;
             padding: 14px;
             margin:10;
-            border:2px solid rgb(255, 255, 255)
-            border-radius 6px;
+            border:2px solid rgb(255, 255, 255);
+            border-radius: 6px;
 
 
         }
@@ -43,14 +43,18 @@
         <P> web desain</p>
         <button onclick="info()" class="btn-detail">info lengkap</botton>
       </div>
-    <div class="kotak-info sembunyi">
+    <div class="kotak-info sembunyi" id="infobox">
         <h1>Informasi Detail</h1>
     </div> 
 <script>
     function info(){
-        alert("tombol info lengkap di click");
+        //alert("tombol info lengkap di click");
+        let info = document.getElementById("infobox");
+
+        info.style.display = "block";
 
     }
     </script>
+
 </body>
 </html>
