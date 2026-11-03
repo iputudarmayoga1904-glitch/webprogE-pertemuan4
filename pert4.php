@@ -55,6 +55,12 @@
 
     }
     </script>
+    <sript>
+        funcion tampil data(event){
+            event.preventDefault();
+
+            
+        }
 
 </body>
 </html>
